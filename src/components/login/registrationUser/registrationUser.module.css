@@ -1,0 +1,40 @@
+.link{
+    color: #47525E;
+    font-family: Lato;
+    font-size: 26px;
+    line-height: 33px;
+    margin-right: 36px;
+    text-decoration: none;
+}
+.active{
+    font-weight: bold;
+    color: #47525E;
+    font-family: Lato;
+    font-size: 26px;
+    line-height: 33px;
+    margin-right: 36px;
+    text-decoration: none;
+}
+.content{
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+.formContent{
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    display: flex;
+    margin-bottom: 96px;
+}
+.button{
+    margin-top: 2%;
+    margin-left: 12%;
+}
+
+
+
+

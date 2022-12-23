@@ -1,0 +1,53 @@
+.who{
+    background-color: #FFFFFF;
+    border: 2px solid #C0CCDA;
+    border-radius: 10px;
+    width: 599px;
+    height: 91px;
+    align-self: flex-end;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+.user{
+    display: flex;
+    justify-content:space-around
+}
+.button{
+    background-color: #13CE66;
+    width: 100px;
+    height: 31px;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 20px;
+    text-align:center;
+    border:none;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.link{
+    margin-left: 12px;
+    color: #8190A5;
+    font-family: Lato;
+    font-size: 21px;
+    width: 252px;
+    text-align: left;
+    text-decoration: none;
+}
+.status{
+    justify-self: flex-start;
+    margin: 0 0;
+    color: #8190A5;
+    font-family: Lato;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.location{
+    color: #8190A5;
+    font-family: Lato;
+    font-size: 21px;
+    text-align: right;
+}

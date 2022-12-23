@@ -1,0 +1,69 @@
+.Header{
+    color: rgba(71, 82, 94, 1);
+  font-family: Lato;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: left;
+    width: 112px;
+    
+}
+.Dialogs{
+    display: grid;
+    grid-template-columns: 2% 33% 4% 41%;
+    grid-template-rows: 1% 10% 1% 28% ;
+    align-items: start;
+}
+
+.Contacts{
+grid-column: 2;
+margin-left: 22px;
+margin-top: 35px;
+
+
+}
+.Messages{
+    grid-column: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+grid-row: 2;
+order: 1;
+}
+
+.CreateMessage{
+    position: relative;
+    grid-column: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    grid-row: 2;
+    order: 1;
+}
+
+.CreateMessage :first-child{
+    margin-bottom: -3px;
+    position: relative;
+    font-size: 22px;
+}
+.CreateMeassageNone {
+    display: none;
+}
+
+.ul{
+    padding: 0rem;
+    min-height: 534px;
+    max-height: 534px;
+    overflow-y: auto;
+    scrollbar-color: #d4aa70 #e4e4e4;
+    scrollbar-width: thin;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.ul p {
+    margin: 0;
+}
+.li{
+    list-style: none;
+    justify-self: end;
+}
+

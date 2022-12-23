@@ -1,0 +1,25 @@
+.button{
+    background-color: #0CB658;
+    height: 31px;
+    align-self: center;
+    color: #FFFFFF;
+  font-family: Lato;
+  line-height: 33px;
+  text-align: left;
+}
+.input{
+    background-color: #E6EEEA;
+    width: 600px;
+    height: 84px;
+    margin-bottom: 22px;
+    margin-bottom: 5px;
+}
+
+.createPost{
+    display: flex;
+    width: 100%;
+}
+input{
+    width: 200%;
+    height: 25px;
+}

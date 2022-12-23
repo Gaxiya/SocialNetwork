@@ -1,0 +1,11 @@
+.usersAdd{
+    display: flex;
+    flex-direction: row;
+}
+.buttonAdd{
+    background: white;
+    border: none;
+}
+.list{
+    list-style: none;
+}

@@ -1,0 +1,18 @@
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+  .content__town{
+    align-self: center;
+    width :75%;
+  height: 194px;
+  }
+  .headerOfCreator{
+    color: #47525E;
+  font-family: Lato;
+  font-size: 35px;
+  line-height: 45px;
+  width: 244px;
+  text-align: left;
+  }

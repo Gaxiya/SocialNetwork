@@ -1,0 +1,18 @@
+.item{
+  color: #47525E;
+  font-family: Lato;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: left;
+  }
+ .circle{
+  background-color: #FFC82C;
+  border-radius: 100%;
+  width: 58px;
+  height: 58px;
+  margin-right: 36px;
+ }
+ .post{
+   display: flex;
+   align-items: flex-start;
+ }

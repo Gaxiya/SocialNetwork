@@ -1,0 +1,9 @@
+.content{
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .content div{
+    align-content: flex-start;
+  }

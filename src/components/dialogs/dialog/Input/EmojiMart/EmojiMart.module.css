@@ -1,0 +1,10 @@
+.emoji{
+    position: absolute;
+    z-index: 2;
+    left: 89.5%;
+}
+.emojiButton{
+    padding: 0;
+    border: none;
+    background-color: white;
+}

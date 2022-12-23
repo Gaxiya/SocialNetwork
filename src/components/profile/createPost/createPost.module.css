@@ -1,0 +1,22 @@
+.button{
+    background-color: #0CB658;
+    width: 162px;
+    height: 36px;
+    align-self: flex-end;
+    color: #FFFFFF;
+  font-family: Lato;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: left;
+}
+.textarea{
+    background-color: #E6EEEA;
+    width: 1004px;
+    height: 84px;
+    margin-bottom: 22px;
+}
+.createPost{
+    display: flex;
+    flex-direction: column;
+    width: 1010px;
+}

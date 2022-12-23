@@ -1,0 +1,71 @@
+.link{
+    color: #47525E;
+    font-family: Lato;
+    font-size: 26px;
+    line-height: 33px;
+    margin-right: 36px;
+    text-decoration: none;
+}
+.active{
+    font-weight: bold;
+    color: #47525E;
+    font-family: Lato;
+    font-size: 26px;
+    line-height: 33px;
+    margin-right: 36px;
+    text-decoration: none;
+}
+.content{
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+.formContent{
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    display: flex;
+    margin-bottom: 96px;
+}
+.button{
+    background-color: #13CE66;
+    width: 116px;
+    height: 35px;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 26px;
+    line-height: 33px;
+    border: none;
+}
+.checkbox{
+    border: 1px solid #F7F6FC;
+    margin-top: 32px;
+    background-color: #13CE66;
+}
+.checkbox[type="checkbox"]:checked {
+    color: #13CE66;
+  }
+.input{
+    background-color: #E1E1E1;
+    width: 200px;
+    height: 26px;
+    border: none;
+    
+
+}
+.label{
+    color: #47525E;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 33px;
+}
+.checkboxLabel{
+    margin-right: 20px;
+    color: #47525E;
+    font-family: Lato;
+    font-size: 10px;
+    line-height: 16px;
+}

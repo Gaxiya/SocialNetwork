@@ -1,0 +1,17 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.buttonNew{
+  background-color: #13CE66;
+  width: 260px;
+  height: 69px;
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  align-self: center;
+  border: none;
+}

@@ -1,0 +1,44 @@
+.content{
+    display: grid;
+    grid-template-columns:20px 164px 45px 150px 30px 262px;
+    grid-template-rows: 21px 45px 37px  60px 30px 200px;
+}
+.content__ava{
+    grid-column: 2;
+    grid-row: 2;
+    width: 174px;
+    height: 164px;
+}
+.name{
+    grid-column: 4;
+    grid-row: 2;
+    color: #47525E;
+    font-family: Lato;
+    font-size: 35px;
+    line-height: 45px;
+    width: 262px;
+    text-align: left;
+}
+.blockWithSummary{
+    grid-column: 4;
+    grid-row: 4;
+    color: #47525E;
+    font-family: Lato;
+    font-size: 25px;
+    line-height: 20px;
+    width: 489px;
+    text-align: left;
+}
+.blockWithSummary :last-child{
+    font-size: 25px;
+    line-height: 20px;
+}
+.button{
+    grid-column: 6;
+    grid-row: 6;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 80%;
+    background-image:url('../../../images/cogwheel2.jpg');
+}
